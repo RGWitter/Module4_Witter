@@ -1,0 +1,168 @@
+
+
+
+/*As a graphic designer, we are supposed to avoid font shadows. It's considered bad form. Are the custom margins, the italic, and the cursive font changes adequeite text effects, I hope?*/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    background-color: aliceblue;  
+    margin: 0;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    word-wrap: break-word;
+}
+
+    h1, h2, h3 {
+        font-family: "Playwrite BR", cursive;
+
+    }
+
+h1 {
+    font-size: 5rem;
+    line-height: 7.5rem;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 2.4rem;
+    line-height: 4rem;
+    margin-top: 60px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+
+#careertitle {
+color: darkslategray;
+font-size: smaller;
+}
+
+footer {
+    background-color: powderblue;
+}
+
+#firstpara
+{
+    font-size: larger;
+}
+
+.background {
+    background-color: rgb(162, 234, 243);
+    background-image: url('images/bkg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home {
+    background: url('images/bkg.png') no-repeat;
+    background-size: cover;
+    
+    }
+
+.home .content-wrapper{
+    background: rgb(255 255 255 / 0.5);
+}
+
+footer {
+    background: #232323;
+    color: lightblue;
+}
+
+a {
+    color: darkgoldenrod;
+}
+
+a:hover {
+    color:gold;
+    text-decoration: none;
+}
+
+.btn {
+    background: darkcyan;
+    color: lightblue;
+    text-decoration: none;
+    /*text-transform: uppercase;*/ /*not a fan of this change; makes my website hard to read.*/
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: .1em;
+    line-height: 1;
+    border-radius: 3px;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+display: inline-block;
+
+}
+
+.socials img {
+width: 32px;
+margin-right: 12px;
+margin-left: 8px;
+
+}
+
+.resume header::before {
+    background: url('images/bkg.png') center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+
+}
+
+.resume-section {
+    margin-bottom: 50px;
+
+}
+
+.resume-section h2 {
+    border-bottom: 2px solid paleturquoise;
+}
+
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 1.5rem;
+}
+
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+}
+
+.project-item img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
